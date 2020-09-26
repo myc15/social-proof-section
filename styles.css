@@ -69,7 +69,6 @@ body {
 /* ------------REVIEW----------- */
 #reviews {
     display: flex;
-    gap: 2rem;
     color: #ffffff;
     margin-bottom: 4rem;
 }
@@ -78,6 +77,10 @@ body {
     background-color: #502050;
     padding: 2rem 2.5rem;
     border-radius: 10px;
+}
+
+.Colton, .Irene {
+    margin-right: 2rem;
 }
 
 .customer-info {
@@ -165,8 +168,9 @@ body {
        
     }
 
-    .customer {
-        position: static;
+    .Colton, .Irene {
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 }
 
